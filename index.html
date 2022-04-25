@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather APP</title>
+  </head>
+  <body>
+    <div class="weatherapp">
+      <h1 id="title">Hessam's Weather App</h1>
+      <div class="location">
+        <h1 class="timezone"></h1>
+        <p class="icon"></p>
+      </div>
+      <div class="temperature">
+        <div class="degree-section">
+          <h2 class="degree"></h2>
+          <span></span>
+        </div>
+        <div class="temperature-description"></div>
+      </div>
+    </div>
+
+    <div class="quote">
+      <h3>Today's Quote</h3>
+      <br />
+      <blockquote class="blockquote">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+          posuere erat a ante.
+        </p>
+        <footer class="author">- Someone famous</footer>
+        <br />
+      </blockquote>
+      <!-- <button class="likebtn">♡ Likes: <span>0</span></button> -->
+      <br />
+      <form class="comments">
+        <label for="new-comment">Your Opinion about Today's Quote:</label>
+        <br />
+        <input type="text" id="name" placeholder="Your Name" />
+        <br />
+        <input
+          name="comment"
+          type="text"
+          id="new-comment"
+          placeholder="Please Type Your Opinion"
+        />
+        <br />
+        <button id="submit" type="submit">Submit</button>
+        <br />
+      </form>
+      <ul id="comment-ul"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
